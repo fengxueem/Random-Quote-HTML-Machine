@@ -1,0 +1,65 @@
+body {
+  background-color: #333;
+  font-family:sans-serif;
+  font-size: 20px;
+}
+
+.buttons ul {
+  float:left;
+}
+
+.buttons ul li a.btn-social:focus,
+.buttons ul li a.btn-social:hover {
+  color: rgb(51, 122, 183);
+  opacity: 0.9;
+}
+
+.btn-social {
+	font-size: 23px;
+  padding:0px;
+  margin-right:5px;
+  /*control text vertical position*/
+  vertical-align: top;
+}
+
+#newQuote {
+  float: right;
+}
+
+#newQuote:focus,
+#newQuote:hover {
+  color: #fff;
+  background-color: rgb(51, 122, 183);
+  opacity: 0.9;
+}
+
+.quote {
+  border-radius: 6px;
+  background-color: #fff;
+  width: 500px;
+  margin: 5% auto auto auto;
+  color: rgb(51, 122, 183);
+  display:table;
+  position:relative;
+  padding:20px 30px;
+}
+
+.quoteText,
+.quoteAuthor,
+.buttons {
+  width: 90%;
+  height:auto;
+  margin: auto;
+  font-weight: 500;
+  font-size:1.2em;
+}
+
+.quoteText i {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+}
+
+.quoteAuthor {
+  font-size:.9em;
+  margin-bottom: 0.2em;
+}
